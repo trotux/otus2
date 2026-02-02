@@ -10,7 +10,10 @@ enum class MoveErrc
     Ok = 0,
     NoLocation = 1,
     NoVelocity,
-    NoMovable
+    NoMovable,
+    NoDirection,
+    NoAngularVelocity,
+    NoRotatable
 };
 
 std::error_code make_error_code(MoveErrc);

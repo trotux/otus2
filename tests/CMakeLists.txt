@@ -3,6 +3,7 @@ set(test_name "moving_objects")
 add_executable(${test_name}
     ${CMAKE_SOURCE_DIR}/tests/main.cpp
     ${CMAKE_SOURCE_DIR}/tests/movement.cpp
+    ${CMAKE_SOURCE_DIR}/tests/rotation.cpp
 )
 
 target_link_libraries(${test_name}
